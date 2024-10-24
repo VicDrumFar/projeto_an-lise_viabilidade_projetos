@@ -11,9 +11,9 @@ import os
 # EXTRACTION (Entrada de Dados)
 # =====================
 def entrada_dados():
-    st.title("Investment Feasibility Analysis Project")
+    st.title("Análise de viabilidade de projetos")
 
-    st.subheader("Project Financial Data")
+    st.subheader("Dados Financeiros do Projeto")
     prazo = st.number_input('Prazo do Projeto (anos)', min_value=1, max_value=50, value=5)
     valor_investimento = st.number_input('Valor do Investimento Inicial', value=50000.0)
     taxa_desconto = st.number_input('Taxa de Desconto (%)', min_value=0.0, max_value=100.0, value=10.0) / 100
